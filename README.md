@@ -10,7 +10,7 @@ When you run the install.bat file, a registry key is created under
 >HKEY\_CLASSES\_ROOT/Folder/shell/Explode/command
 
 with a default string value of this command
->``` cmd.exe /s /k xcopy /w /e /h /-y "%V" "%W" &  rmdir /s "%V" & exit ```
+>``` cmd.exe /s /k xcopy /w /e /h /-y "%V" "%W" &  rmdir /s /q "%V" & exit ```
 
 which is invoked when the context menu option is clicked.
 
