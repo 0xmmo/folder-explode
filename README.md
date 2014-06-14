@@ -27,3 +27,6 @@ which is invoked when the context menu option is clicked.
 	- **/s** Removes the specified directory and all subdirectories including any files  
 	- **/q** Runs rmdir in quiet mode  
 	- **"%V"** 	Location of directory to be deleted
+
+###Why?
+Because.
