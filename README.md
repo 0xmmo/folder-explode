@@ -1,4 +1,4 @@
-#expelode
+#Folder Explode
 
 A simple utility to explode folders. (that is copy folder's contents into parent and delete folder itself)
 
