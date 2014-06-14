@@ -6,10 +6,10 @@ Works on Windows XP, 7, 8+.
 Tested on Windows 8 only.
 
 ###How it works?
-When you run the install.bat file, a registry command key is created under 
+When you run the install.bat file, a registry key is created under 
 >HKEY\_CLASSES\_ROOT/Folder/shell/Explode/command
 
-with the value  
+with a default string value of this command
 >``` cmd.exe /s /k xcopy /w /e /h /-y "%V" "%W" &  rmdir /s "%V" & exit ```
 
 which is invoked when the context menu option is clicked.
