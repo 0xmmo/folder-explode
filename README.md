@@ -1,9 +1,9 @@
 #Folder Explode
 
-A simple utility to explode folders. (that is copy folder's contents into parent and delete folder itself)
+A simple Windows utility that adds a context menu option to explode folders. (that is copy folder's contents into parent and delete folder itself)
 
 Works on Windows XP, 7, 8+.
-Tested on Windows 8 only.
+Tested on Windows 8.1 only.
 
 ###How to install
 Run install.bat  
