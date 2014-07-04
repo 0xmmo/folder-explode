@@ -1,4 +1,4 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Folder\shell\Explode\command]
-""="cmd.exe /s /k xcopy /w /s /t /e /h /-y \"%V\" \"%W\" & rmdir /s /q \"%V\" & exit"
+""="cmd.exe /s /k xcopy /w /e /h /-y \"%V\" \"%W\" & rmdir /s /q \"%V\" & exit"
