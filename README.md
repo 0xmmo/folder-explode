@@ -1,19 +1,19 @@
-#Folder Explode
+# Folder Explode
 
 A simple Windows utility that adds a context menu option to explode folders. (that is copy folder's contents into parent and delete folder itself)
 
 Works on Windows XP, 7, 8+.
 Tested on Windows 8.1 only.
 
-###How to install
+### How to install
 Run install.bat  
 
-###How it works
+### How it works
 When you run the install.bat file, a registry key is created under 
->HKEY\_CLASSES\_ROOT/Folder/shell/Explode/command
+> HKEY\_CLASSES\_ROOT/Folder/shell/Explode/command
 
 with a default value of the command
->``` cmd.exe /s /k xcopy /w /e /h /-y "%V" "%W" &  rmdir /s /q "%V" & exit ```
+> ``` cmd.exe /s /k xcopy /w /e /h /-y "%V" "%W" &  rmdir /s /q "%V" & exit ```
 
 which is invoked when the context menu option is clicked.
 
@@ -31,5 +31,5 @@ which is invoked when the context menu option is clicked.
 	- **/q** Runs rmdir in quiet mode  
 	- **"%V"** 	Location of directory to be deleted
 
-###Why?
+### Why?
 Because no one else did.
